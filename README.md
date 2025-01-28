@@ -16,24 +16,18 @@ This results in a web app interface where a message can be typed into the search
 appropriate disaster categories. There are screenshots of an example in the main folder.
 
 ## File Descriptions <a name="files"></a>
- ### Testing
-- Folder app: test
-	- run.py - python script that launches web app. See instructions below.
-- Data: test
-- Model: test
-
--Folder: app
+ 
+- Folder app: 
 	- run.py - python script that launches web app. See instructions below.
 	- templates folder : go.html and master.html - used to launch web app
-	
--Folder: data
+- Folder data: 
     - disaster_categories.csv  Appen provided dataset with categories for id'd disaster messages
 	- disaster_messages.csv  Appen provided dataset with disaster messages and their accompanying id.
 	- DisasterResponseProject.db  database to hold Msg_Cat table from processed python files
 	- ETL Pipeline Preparation.ipynb  jupyter notebook working through data processing and merging of data files above.
 	- process_data.py  python script to run in terminal to process data for web app. See instructions below.
 	
--Folder: models
+- Folder models:
 	- classifier.pkl - model
 	- DisasterResponseProject.db - database to hold Msg_Cat table from processed python files
 	- ML Pipeline Preparation.ipynb - jupyter notebook working through natural language processing and model building.
