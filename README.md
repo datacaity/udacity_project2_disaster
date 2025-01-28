@@ -22,12 +22,12 @@ appropriate disaster categories. There are screenshots of an example in the main
 	- templates folder : go.html and master.html - used to launch web app
 	
 Folder: data
-    * disaster_categories.csv - Appen provided dataset with categories for id'd disaster messages
-	* disaster_categories.csv - Appen provided dataset with categories for id'd disaster messages
-	* disaster_messages.csv - Appen provided dataset with disaster messages and their accompanying id.
-	* DisasterResponseProject.db - database to hold Msg_Cat table from processed python files
-	* ETL Pipeline Preparation.ipynb - jupyter notebook working through data processing and merging of data files above.
-	* process_data.py - python script to run in terminal to process data for web app. See instructions below.
+    * disaster_categories.csv  Appen provided dataset with categories for id'd disaster messages
+	* disaster_categories.csv  Appen provided dataset with categories for id'd disaster messages
+	* disaster_messages.csv  Appen provided dataset with disaster messages and their accompanying id.
+	* DisasterResponseProject.db  database to hold Msg_Cat table from processed python files
+	* ETL Pipeline Preparation.ipynb  jupyter notebook working through data processing and merging of data files above.
+	* process_data.py  python script to run in terminal to process data for web app. See instructions below.
 	
 Folder: models
 	- classifier.pkl - model
