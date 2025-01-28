@@ -16,7 +16,11 @@ This results in a web app interface where a message can be typed into the search
 appropriate disaster categories. There are screenshots of an example in the main folder.
 
 ## File Descriptions <a name="files"></a>
- 
+ ### Testing
+- App: test
+- Data: test
+- Model: test
+
 Folder: app
 	- run.py - python script that launches web app. See instructions below.
 	- templates folder : go.html and master.html - used to launch web app
